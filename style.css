@@ -1,0 +1,20 @@
+.html {
+    width: fit-content;
+}
+#rh {
+    margin-left: 400px;
+}
+ul {
+    margin-left: 400px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+div {
+    margin-bottom: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Homework1</title>
+    </head>
+    <body>
+        <h2>Grading</h2>
+        <div><label>Name</label><input type="text" id="name"></div>
+        <div><label>ID</label><input type="text" id="id"></div>
+        <div><label>Points</label><input type="text" id="points"></div>
+        <div>
+            <label>Grade</label>
+            <input type="radio" name="grade" class="grade" value="5">5
+            <input type="radio" name="grade" class="grade" value="6">6
+            <input type="radio" name="grade" class="grade" value="7">7
+            <input type="radio" name="grade" class="grade" value="8">8
+            <input type="radio" name="grade" class="grade" value="9">9
+            <input type="radio" name="grade" class="grade" value="10">10
+        </div>
+        <div>
+            <label>Session</label>
+            <select id="session">
+                <option>January</option>
+                <option>June</option>
+                <option>September</option>
+            </select>
+        </div>
+        
+        <button onclick="importStudent()">Import Student</button><br>
+
+        <div id="result"></div>
+
+        <h2>Students</h2>
+
+        <h3 id="average"></h3>
+
+        <table id="tabela">
+            <thead>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Points</th>
+                <th class="grades">Grade</th>
+                <th>Session</th>
+                <th colspan="2">Actions</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <br>
+        <br>
+        
+        <p><a href="references.html">Click here for References</a></p>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
